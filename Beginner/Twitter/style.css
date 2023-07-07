@@ -1,0 +1,87 @@
+body {
+    background-color: rgba(20, 29, 38, 1);
+    display: flex;
+    width: 923px;
+    padding: 186px 161px;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Source Sans 3', sans-serif;
+
+}
+
+.container {
+    width: 601px;
+    height: 228px;
+    border-radius: 10px;
+    background: #243447;
+    box-shadow: 0px 15px 60px 0px rgba(52, 81, 116, 0.15);
+    gap: 15px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 15px 35px;
+}
+
+.name {
+    margin-left: 22px;
+    align-items: center;
+
+}
+
+.logo {
+    margin-left: auto;
+}
+
+.nama {
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0;
+}
+
+.username {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.thread {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+
+    padding: 0 35px;
+}
+
+.hastag {
+    color: #1DA1F2;
+}
+
+.footer {
+    text-align: flex start;
+    color: rgba(255, 255, 255, 0.60);
+    display: flex;
+    padding: 15px 35px;
+    gap: 20px;
+    width: 232;
+    height: 26px;
+}
+
+.like {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.date {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}

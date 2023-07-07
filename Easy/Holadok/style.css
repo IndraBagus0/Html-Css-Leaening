@@ -1,0 +1,91 @@
+body {
+    width: 1440px;
+    margin: 30px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(assets/bg.png);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    width: 1140px;
+    height: 37px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.brand {
+    display: flex;
+    width: 199px;
+    align-items: center;
+    gap: 15px;
+}
+
+.gambar {
+    width: 24px;
+    height: 24px;
+}
+
+.logo {
+    color: #101C45;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.list {
+    display: flex;
+    align-items: flex-start;
+    gap: 50px;
+    flex: 1 0 0;
+}
+
+.navigasi {
+    color: rgba(0, 0, 0, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.active {
+    color: #101C45;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.a .link {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+.login {
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 6px;
+    color: rgba(16, 28, 69, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.book {
+    padding: 8px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #101C45;
+    color: rgba(16, 28, 69, 1);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: normal;
+}
