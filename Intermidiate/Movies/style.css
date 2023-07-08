@@ -1,0 +1,126 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    width: 1512px;
+    height: 982px;
+    margin: 20px auto;
+    color: #fff;
+    display: flex;
+    border-radius: 20px;
+    background: linear-gradient(166deg, #233458 0%, #111827 100%);
+}
+
+.container {
+    width: 1372px;
+    height: 49px;
+    margin: 0 auto;
+    padding-bottom: 26px;
+    border-bottom: 1px solid rgba(83, 95, 119, 1);
+    /* Menambahkan garis bawah dengan warna dan ketebalan sesuai kebutuhan */
+
+
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-left {
+    gap: 56px;
+    display: flex;
+    align-items: center;
+}
+
+.brand {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navigasi {
+    display: flex;
+    margin: 0;
+    padding-left: 0%;
+    gap: 34px;
+}
+
+.menu {
+    padding-left: 0;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    position: relative;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    width: 270px;
+    height: 49px;
+}
+
+.input {
+    width: 270px;
+    height: 49px;
+    border: 1px solid #192642;
+    font-size: 14px;
+    padding-left: 40px;
+    border-radius: 46px;
+    background: #192642;
+    color: #CDCDCD;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.fa-search {
+    position: absolute;
+    left: 1px;
+    padding-left: 16px;
+    color: #999;
+}
+
+.auth {
+    display: flex;
+    align-items: center;
+    gap: 21px;
+}
+
+.login {
+    color: #1D4ED8;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.sign-up {
+    border-radius: 12px;
+    background: #1D4ED8;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    width: 140px;
+    height: 49px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+}
+
+.login:hover,
+.sign-up:hover {
+    cursor: pointer;
+}
